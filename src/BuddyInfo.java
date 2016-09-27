@@ -35,6 +35,13 @@ public class BuddyInfo {
 	public void setPhonenumber(int phonenumber) {
 		this.phonenumber = phonenumber;
 	}
+	
+	public boolean isEven(int phonenumber) {
+		if( phonenumber%2 == 0)
+			return true;
+		else
+			return false;		
+	}
 
 	public static void main(String[] args) {
 		System.out.println("Hello Wrold!");
