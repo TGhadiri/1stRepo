@@ -37,7 +37,7 @@ public class BuddyInfo {
 	}
 
 	public static void main(String[] args) {
-		Systme.out.println("Hello Wrold!");
+		System.out.println("Hello Wrold!");
 	}
 
 }
